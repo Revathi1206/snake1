@@ -1,0 +1,306 @@
+.background {
+  background: linear-gradient(to right, red, blue);
+  text-align: center;
+  font-family: "Russo One", sans-serif;
+}
+table {
+  height: 450px;
+  width: 70%;
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  top: 5%;
+  border: 10px solid black;
+  box-shadow: 0rem 5rem 4rem rgba(0, 0, 0, 0.6);
+  font-size: 25px;
+}
+td {
+  padding: 30px;
+}
+#v {
+  background-color: violet;
+}
+#i {
+  background-color: rgb(82, 230, 217);
+}
+#b {
+  background-color: rgb(250, 250, 27);
+}
+#g {
+  background-color: rgb(10, 247, 10);
+}
+
+#o {
+  background-color: rgb(243, 56, 87);
+}
+.img1 {
+  float: left;
+}
+td {
+  height: 20px;
+  width: 200px;
+}
+.color-1 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(12, 27, 145, 0.7);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.eyes {
+  height: 1%;
+  width: 1%;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: aliceblue;
+}
+.color-2 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(190, 63, 4, 0.7);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.color-3 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(53, 1, 40, 0.986);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.color-4 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(53, 3, 1, 0.986);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.color-5 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(32, 1, 53, 0.986);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.color-6 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(1, 53, 49, 0.986);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+.color-7 {
+  height: 200%;
+  width: 100%;
+  border-radius: 70px;
+  border: 2px solid black;
+  background-color: rgba(52, 53, 1, 0.986);
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+}
+button {
+  height: 200%;
+  width: 120%;
+  box-shadow: 0rem 3rem 2rem rgba(0, 0, 0, 0.6);
+  background: radial-gradient(rgb(240, 40, 40), rgb(67, 67, 228));
+  border-radius: 20px;
+  font-size: large;
+  font-family: "Russo One", sans-serif;
+}
+.player1 {
+  border: 10px solid crimson;
+  background: rgb(93, 148, 185);
+  border-radius: 20px;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  right: 7%;
+  top: 25%;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  box-shadow: 0rem 3rem 3rem rgba(0, 0, 0, 0.6);
+}
+.dice1 {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 10px;
+  right: 11%;
+  top: 45%;
+  box-shadow: 0rem 3rem 3rem rgba(0, 0, 0, 0.6);
+  animation-name: dice;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 1s;
+}
+.player2 {
+  border: 10px solid crimson;
+  background: rgb(92, 142, 161);
+  border-radius: 20px;
+  height: 100px;
+  width: 300px;
+  position: absolute;
+  right: 7%;
+  top: 70%;
+  text-align: center;
+  font-size: 40px;
+  text-align: center;
+  box-shadow: 0rem 3rem 3rem rgba(0, 0, 0, 0.6);
+}
+.roll {
+  height: 100px;
+  width: 200px;
+  margin-left: 15px;
+  background: cyan;
+  position: absolute;
+  top: 90%;
+  right: 10%;
+  font-size: 40px;
+}
+
+.hiddenplay {
+  display: flex;
+  height: 1100px;
+  width: 2000px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  box-shadow: 0rem 5rem 2rem rgba(0, 0, 0, 0.6);
+}
+.play {
+  height: 100px;
+  width: 250px;
+  border: 10px solid coral;
+  text-align: center;
+  background-image: url("img1.jpeg");
+  background-attachment: fixed;
+  font-size: 50px;
+  padding: 40px 40px 40px 40px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  border-style: outset;
+}
+marquee {
+  width: 2000px;
+  height: 300px;
+  position: absolute;
+  top: 70%;
+}
+.theme {
+  height: 100px;
+  width: 250px;
+  border: 10px solid coral;
+  text-align: center;
+  background-image: url("img1.jpeg");
+  background-attachment: fixed;
+  font-size: 50px;
+  padding: 40px 40px 40px 40px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  border-style: outset;
+}
+.help {
+  height: 100px;
+  width: 250px;
+  border: 10px solid coral;
+  text-align: center;
+  background-image: url("img1.jpeg");
+  background-attachment: fixed;
+  font-size: 50px;
+  padding: 40px 40px 40px 40px;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  border-style: outset;
+}
+@keyframes dice {
+  from {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    border-radius: 10px;
+    right: 11%;
+    top: 45%;
+    box-shadow: 0rem 3rem 3rem rgba(0, 0, 0, 0.6);
+  }
+  to {
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    border-radius: 30px;
+    right: 13%;
+    top: 50%;
+    box-shadow: 0rem 3rem 3rem rgba(0, 0, 0, 0.6);
+  }
+}
+.hiddentheme {
+  display: none;
+  height: 1100px;
+  width: 2000px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  box-shadow: 0rem 5rem 2rem rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.none {
+  height: 200px;
+  width: 400px;
+  border: 5px solid orchid;
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.bw {
+  height: 200px;
+  width: 400px;
+  border: 5px solid orchid;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+.bg {
+  color: white;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 10%;
+}
+.home {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  top: 0%;
+  right: 10%;
+}
+.hiddenhelp {
+  display: none;
+  color: antiquewhite;
+  height: 1100px;
+  width: 2000px;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(20px);
+  box-shadow: 0rem 5rem 2rem rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+ul {
+  line-height: 100px;
+  font-size: 50px;
+}
+.bg1 {
+  color: white;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 10%;
+}
